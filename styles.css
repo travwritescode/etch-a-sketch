@@ -1,0 +1,14 @@
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.gridSquare {
+    background-color: cornflowerblue;
+    margin: 5px 5px;
+    width: 100px;
+    height: 100px;
+}
