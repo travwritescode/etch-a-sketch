@@ -5,9 +5,11 @@ gridSquares.forEach(square => {
     square.addEventListener('mouseover', () => {
         const squareStyle = getComputedStyle(square);
         const backgroundColor = squareStyle.backgroundColor;
-        console.log(backgroundColor);
         if (backgroundColor === "rgb(100, 149, 237)") {
-            console.log("It's totally cornflower blue");
+            square.style.backgroundColor = "rgb(0, 0, 139)";
+        }
+        else {
+            square.style.backgroundColor = "rgb(100, 149, 237)";
         }
     })
 })
